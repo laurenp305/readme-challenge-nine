@@ -1,0 +1,22 @@
+{
+  "name": "challenge-nine",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/laurenp305/readme-challenge-nine.git"
+  },
+  "author": "Lauren Pineiro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/laurenp305/readme-challenge-nine/issues"
+  },
+  "homepage": "https://github.com/laurenp305/readme-challenge-nine#readme",
+  "dependencies": {
+    "inquirer": "^8.2.4"
+  }
+}
