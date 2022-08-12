@@ -1,68 +1,73 @@
+//node modules
 const inquirer = require('inquirer');
 
 //Array of questions for user to answer
-const questions = [
-{ 
-    type: "input",
-    name: "title",
-    message: "What's the name of your project?",
-
-},
-{
-    type: "input",
-    name: "description",
-    message: "Describe your project: ",
-},
-{
-    type: "input",
-    name: "why",
-    message: "Why did you create this project?",
-},
-{
-    type: "input",
-    name: "what",
-    message: "What problem did your project solve?",
-},
-{
-    type: "input",
-    name: "installation",
-    message: "What are the steps for installing your project?",
-},
-{
-    type: "input",
-    name: "usage",
-    message: "Provide instructions and examples for use.",
-},
-{
-    type: "input",
-    name: "credits",
-    message: "List your collaborators, if any, with links to their GitHub profiles.",
-},
-{
-    type: "input",
-    name: "features",
-    message: "If your project has a lot of features, list them here.",
-},
-{
-    type: "input",
-    name: "contributors",
-    message: "If you created an application or package and would like other developers to contribute it, you can include guidelines for how to do so here.",
-},
-{
-    type: "input",
-    name: "license",
-    message: "Which license will you use for your project?",
-},
-{
-    type: "input",
-    name: "github",
-    message: "What is your github repository URL?",
-},
-];
+const questions = (
+[
+    { 
+        type: "input",
+        name: "title",
+        message: "What's the name of your project?",
+        validate: (value) => {if(value){return true} else {return 'Please add an answer to continue.'}},
+    },
+    {
+        type: "input",
+        name: "description",
+        message: "Describe your project: ",
+        validate: (value) => {if(value){return true} else {return 'Please add an answer to continue.'}},    },
+    {
+        type: "input",
+        name: "why",
+        message: "Why did you create this project?",
+        validate: (value) => {if(value){return true} else {return 'Please add an answer to continue.'}},    },
+    {
+        type: "input",
+        name: "what",
+        message: "What problem did your project solve?",
+        validate: (value) => {if(value){return true} else {return 'Please add a what to continue.'}},
+    },
+    {
+        type: "input",
+        name: "installation",
+        message: "What are the steps for installing your project?",
+        validate: (value) => {if(value){return true} else {return 'Please add installation instructions to continue.'}},
+    },
+    {
+        type: "input",
+        name: "usage",
+        message: "Provide instructions and examples for use.",
+        validate: (value) => {if(value){return true} else {return 'Please add an answer to continue.'}},    },
+    {
+        type: "input",
+        name: "credits",
+        message: "List your collaborators, if any, with links to their GitHub profiles.",
+        validate: (value) => {if(value){return true} else {return 'Please add an answer to continue.'}},    },
+    {
+        type: "input",
+        name: "features",
+        message: "If your project has a lot of features, list them here.",
+        validate: (value) => {if(value){return true} else {return 'Please add an answer to continue.'}},    },
+    {
+        type: "input",
+        name: "contributors",
+        message: "If you created an application or package and would like other developers to contribute it, you can include guidelines for how to do so here.",
+        validate: (value) => {if(value){return true} else {return 'Please add an answer to continue.'}},    },
+    {
+        type: "list",
+        name: "license",
+        message: "Which license will you use for your project?",
+        choices:['The MIT License', 'GPL License', 'Apache License', 'GNU License', 'N/A'],
+        validate: (value) => {if(value){return true} else {return 'Please add an answer to continue.'}},    },
+    {
+        type: "input",
+        name: "github",
+        message: "What is your github repository URL?",
+        validate: (value) => {if(value){return true} else {return 'Please add an answer to continue.'}},    },
+]);
 
 inquirer.prompt(questions).then((data) => {
     const { title, description, why, what, installation, usage, credits, features, contributors, license, github } = data;
-    
+
     const readme = `
 
 # ${title}
@@ -89,15 +94,18 @@ ${license}
 
 ## Github Link
 
-[${github}](https://github.com/laurenp305/readme-challenge-nine${github})`
+${github}`
 
 });
 
+// function to prompt questions and store user inputs
+function runPrompts() {
 
-fs.appendFile("README.md", readme, (error) => {
-    if (error) {
-        return "Error in your file!";
-    } else {
-        return "Success!";
-    }
-});
+    return inquirer.prompt(questions)
+    .then(answers => {
+        return answers;
+    })
+    .catch((error) =>
+        console.log(error)
+    )}
+
