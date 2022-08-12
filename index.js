@@ -98,15 +98,33 @@ ${why}
 
 ${what}
 
+## Installation
+
+${installation}
+
+## Usage 
+
+${usage}
+
+## Credits 
+
+${credits}
+
+## Features 
+
+${features}
+
+## Contributors
+
+${contributors}
+
 ## License 
 
 ${license}
 
-## Installation
-
 ## Github Link
 
-Please click [here](${github}) for the link`
+Please click [here](${github}) to visit my Github repository.`
 
 return readme
 
