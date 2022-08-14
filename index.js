@@ -22,12 +22,6 @@ const questions = [
         message: "Why did you create this project?",
         validate: (value) => {if(value){return true} else {return 'Please add an answer to continue.'}},    
     },
-    // {
-    //     type: "input",
-    //     name: "what",
-    //     message: "What problem did your project solve?",
-    //     validate: (value) => {if(value){return true} else {return 'Please add a what to continue.'}},
-    // },
     {
         type: "input",
         name: "installation",
@@ -62,11 +56,11 @@ const questions = [
         type: "list",
         name: "license",
         message: "Which license will you use for your project?",
-        choices:['The MIT License', 'GPL License', 'Apache License', 'GNU License', 'N/A'],
+        choices:["The MIT License", "GPL License", "Apache License", "GNU License", "N/A"],
         validate: (value) => {if(value){return true} else {return 'Please add an answer to continue.'}},    
     },
     {
-        type: "list",
+        type: "input",
         name: "test",
         message: "How can this project be tested?",
         validate: (value) => {if(value){return true} else {return 'Please add an answer to continue.'}},    

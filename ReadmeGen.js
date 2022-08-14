@@ -1,10 +1,7 @@
 class MarkDown {
     static generateReadMe(answers){
         return `
-        # ${answers.title}
-    
-        ![badge](https://img.shields.io/badge/license-${answers.license}-brightgreen)<br/>
-        
+        # ${answers.title}        
 
         ## Table of Contents
 
