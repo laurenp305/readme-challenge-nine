@@ -1,8 +1,6 @@
 
 
-# djskg
-
-![badge](https://img.shields.io/badge/license-The MIT License-brightgreen)<br/>
+# README Generator | Challenge 9
 
 ## Table of Contents
 
@@ -19,27 +17,27 @@
 
 ## Description
 
-ajkgabk
+A node.js application that uses user input to populate a README.md file for their repository.
 
 ## Installation
 
-dgjksabk
+Node and inquirer npm are required for this project. Install inquirer by first iputting [npm init] in your terminal followed by [npm install inquirer].
 
 ## Usage 
 
-gjksbk
+Web developers can use this project when creating README files for their repositories.
 
 ## Credits 
 
-sgjksbgk
+No collaborators.
 
 ## Features 
 
-sgjksbk
+No features.
 
 ## Contributors
 
-sgkjbsk
+N/A
 
 ## License 
         
@@ -47,10 +45,10 @@ This application is covered by the The MIT License.
 
 ## Test Instructions
 
-sjkfbg
+This project can be tested through one's terminal.
 
 ## Github Link
 
-Please click [here](ksjbgsf) to visit my Github repository.
+Please click [here](https://github.com/laurenp305/readme-challenge-nine) to visit my Github repository.
 
-sjgks
+lamor1800@gmail.com
