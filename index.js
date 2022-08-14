@@ -66,6 +66,12 @@ const questions = [
         validate: (value) => {if(value){return true} else {return 'Please add an answer to continue.'}},    
     },
     {
+        type: "list",
+        name: "test",
+        message: "How can this project be tested?",
+        validate: (value) => {if(value){return true} else {return 'Please add an answer to continue.'}},    
+    },
+    {
         type: "input",
         name: "github",
         message: "What is your github repository URL?",
@@ -82,7 +88,7 @@ const questions = [
 // inquirer.prompt(questions).then((answers) => {
 function generateMarkDownContent(answers) {
 
-    const { title, description, why, installation, usage, credits, features, contributors, license, github, email } = answers;
+    const { title, description, why, installation, usage, credits, features, contributors, license, github, email, test } = answers;
 
     const readme = `
 
@@ -98,6 +104,7 @@ function generateMarkDownContent(answers) {
 - [License](#license)
 - [Features](#features)
 - [Contributors](#contributors)
+- [Test Instructions](#test)
 - [Github](#github)
 - [Email Address](#email)
 
@@ -130,6 +137,10 @@ ${contributors}
 ## License 
 
 ${license}
+
+## Test Instructions
+
+${test}
 
 ## Github Link
 

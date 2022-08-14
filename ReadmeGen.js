@@ -4,6 +4,7 @@ class MarkDown {
         # ${answers.title}
     
         ![badge](https://img.shields.io/badge/license-${answers.license}-brightgreen)<br/>
+        
 
         ## Table of Contents
 
@@ -15,6 +16,7 @@ class MarkDown {
         - [License](#license)
         - [Features](#features)
         - [Contributors](#contributors)
+        - [Test Instructions](#tests)
         - [Github](#github)
         - [Email Address](#email)
 
@@ -47,6 +49,10 @@ class MarkDown {
         ## Contributors
 
         ${answers.contributors}
+
+        ## Test Instructions
+
+        ${answers.tests}
 
         ## Github Link
 
