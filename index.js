@@ -91,18 +91,21 @@ function generateMarkDownContent(answers) {
 ## Table of Contents
 
 - [Description](#description)
-- [Why](#what)
-- [What](#what)
+- [Why](#why)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Credits](#credits)
 - [License](#license)
+- [Features](#features)
+- [Contributors](#contributors)
 - [Github](#github)
+- [Email Address](#email)
 
 ## Description
 
 ${description}
 
 ${why}
-
-${what}
 
 ## Installation
 

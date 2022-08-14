@@ -8,7 +8,7 @@ class MarkDown {
         ## Table of Contents
 
         - [Description](#description)
-        - [Why](#what)
+        - [Why](#why)
         - [Installation](#installation)
         - [Usage](#usage)
         - [Credits](#credits)
@@ -54,7 +54,7 @@ class MarkDown {
 
         ## Email address
 
-        ${answers.email}
+        Contact me with any questions: ${answers.email}, ${answers.github}
 
         `
     }
