@@ -71,12 +71,18 @@ const questions = [
         message: "What is your github repository URL?",
         validate: (value) => {if(value){return true} else {return 'Please add an answer to continue.'}},    
     },
+    {
+        type: "input",
+        name: "email",
+        message: "Please enter your email address: ",
+        validate: (value) => {if(value){return true} else {return 'Please add an answer to continue.'}},    
+    },
 ];
 
 // inquirer.prompt(questions).then((answers) => {
 function generateMarkDownContent(answers) {
 
-    const { title, description, why, what, installation, usage, credits, features, contributors, license, github } = answers;
+    const { title, description, why, what, installation, usage, credits, features, contributors, license, github, email } = answers;
 
     const readme = `
 
@@ -124,7 +130,9 @@ ${license}
 
 ## Github Link
 
-Please click [here](${github}) to visit my Github repository.`
+Please click [here](${github}) to visit my Github repository.
+
+${email}`
 
 return readme
 
