@@ -82,6 +82,8 @@ function generateMarkDownContent(answers) {
 
 # ${title}
 
+![badge](https://img.shields.io/badge/license-${answers.license}-brightgreen)<br />
+
 ## Table of Contents
 
 - [Description](#description)
