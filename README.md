@@ -1,6 +1,6 @@
 
 
-# README.md Generator | Challenge 9
+# kjagb
 
 ## Table of Contents
 
@@ -17,38 +17,38 @@
 
 ## Description
 
-A node.js application that uses user input to generate a README.md file for the user's repository.
+sdjkgns
 
 ## Installation
 
-Inquirer npm can be installed by inputting [npm init] followed by [npm install inquirer] in the project folder. Node.js must also be installed.
+sfjkgsfj
 
 ## Usage 
 
-Any web developer can use this application to generate professional and descriptive README.md files for their repositories.
+sgkjdnsgkj
 
 ## Credits 
 
-N/A
+sgjkfnsks
 
 ## Features 
 
-N/A
+fkjlnfs
 
 ## Contributors
 
-N/A
+sfjgnsk
 
 ## License 
 
-GPL License
+The MIT License
 
 ## Test Instructions
 
-This project can be tested through the user's terminal. The project can be opened with terminal, then the user needs to input [node index.js], then they'll be presented with various questions for their README.md file.
+jfbgkjs
 
 ## Github Link
 
-Please click [here](https://github.com/laurenp305/readme-challenge-nine) to visit my Github repository.
+Please click [here](sfjkgnsk) to visit my Github repository.
 
-lamor1800@gmail.com
+sjfgnks
