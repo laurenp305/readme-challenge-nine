@@ -2,7 +2,7 @@
 
 # jrjgksb
 
-![badge](https://img.shields.io/badge/license-The MIT License-brightgreen)<br />
+![badge](https://img.shields.io/badge/license-${answers.license}-brightgreen)<br />
 
 ## Table of Contents
 
