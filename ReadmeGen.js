@@ -6,7 +6,6 @@ class MarkDown {
         ## Table of Contents
 
         - [Description](#description)
-        - [Why](#why)
         - [Installation](#installation)
         - [Usage](#usage)
         - [Credits](#credits)
@@ -20,8 +19,6 @@ class MarkDown {
         ## Description
 
         ${answers.description}
-
-        ${answers.why}
 
         ## Installation
 

@@ -18,12 +18,6 @@ const questions = [
     },
     {
         type: "input",
-        name: "why",
-        message: "Why did you create this project?",
-        validate: (value) => {if(value){return true} else {return 'Please add an answer to continue.'}},    
-    },
-    {
-        type: "input",
         name: "installation",
         message: "What are the steps for installing your project?",
         validate: (value) => {if(value){return true} else {return 'Please add installation instructions to continue.'}},
@@ -82,7 +76,7 @@ const questions = [
 // inquirer.prompt(questions).then((answers) => {
 function generateMarkDownContent(answers) {
 
-    const { title, description, why, installation, usage, credits, features, contributors, license, github, email, test } = answers;
+    const { title, description, installation, usage, credits, features, contributors, license, github, email, test } = answers;
 
     const readme = `
 
@@ -91,7 +85,6 @@ function generateMarkDownContent(answers) {
 ## Table of Contents
 
 - [Description](#description)
-- [Why](#why)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Credits](#credits)
@@ -105,8 +98,6 @@ function generateMarkDownContent(answers) {
 ## Description
 
 ${description}
-
-${why}
 
 ## Installation
 
