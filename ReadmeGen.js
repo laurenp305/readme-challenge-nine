@@ -48,13 +48,13 @@ class MarkDown {
 
         ${answers.tests}
 
-        ## Github Link
+        ## Github 
 
         ${answers.github}
 
-        ## Email address
+        ## Email Me!
 
-        Contact me with any questions: ${answers.email}, ${answers.github}
+        Email me with any questions: ${answers.email}
 
         `
     }
