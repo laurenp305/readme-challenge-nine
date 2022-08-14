@@ -82,8 +82,6 @@ function generateMarkDownContent(answers) {
 
 # ${title}
 
-![badge](https://img.shields.io/badge/license-${answers.license}-brightgreen)<br />
-
 ## Table of Contents
 
 - [Description](#description)
@@ -139,6 +137,16 @@ return readme
 
 }
 // });
+
+// creates badge for license when it's chosen from prompts
+const addLicenseBadge = license => {
+    if (license) {
+        return `![${license} License](https://img.shields.io/badge/license-${license}-blue)
+`;
+    } else {
+        return '';
+    }
+};
 
 // function to prompt questions and store user inputs
 function runPrompts() {
