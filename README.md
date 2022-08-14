@@ -27,6 +27,15 @@ Node.js and inquirer are required for this project. You can install inquierer by
 
 Web developers can use this application whenever they're creating a README for their repositories.
 
+Link to Video/Demo:
+
+https://drive.google.com/file/d/15Hcy_2F9kXoCzKN2X9tAujM6_GMQ8x5y/view
+
+Screenshot of generated README.md file:
+
+<img width="459" alt="image" src="https://user-images.githubusercontent.com/106932259/184551699-6e8898a6-9d4b-4202-9520-2c56f69ede07.png">
+
+
 ## Credits 
 
 No collaborators.
