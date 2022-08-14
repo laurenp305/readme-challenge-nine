@@ -131,6 +131,8 @@ ${test}
 
 Please click [here](${github}) to visit my Github repository.
 
+## Email Me!
+
 ${email}`
 
 return readme
