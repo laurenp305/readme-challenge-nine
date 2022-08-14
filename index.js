@@ -22,12 +22,12 @@ const questions = [
         message: "Why did you create this project?",
         validate: (value) => {if(value){return true} else {return 'Please add an answer to continue.'}},    
     },
-    {
-        type: "input",
-        name: "what",
-        message: "What problem did your project solve?",
-        validate: (value) => {if(value){return true} else {return 'Please add a what to continue.'}},
-    },
+    // {
+    //     type: "input",
+    //     name: "what",
+    //     message: "What problem did your project solve?",
+    //     validate: (value) => {if(value){return true} else {return 'Please add a what to continue.'}},
+    // },
     {
         type: "input",
         name: "installation",
@@ -82,7 +82,7 @@ const questions = [
 // inquirer.prompt(questions).then((answers) => {
 function generateMarkDownContent(answers) {
 
-    const { title, description, why, what, installation, usage, credits, features, contributors, license, github, email } = answers;
+    const { title, description, why, installation, usage, credits, features, contributors, license, github, email } = answers;
 
     const readme = `
 

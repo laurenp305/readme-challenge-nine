@@ -9,7 +9,6 @@ class MarkDown {
 
         - [Description](#description)
         - [Why](#what)
-        - [What](#what)
         - [Installation](#installation)
         - [Usage](#usage)
         - [Credits](#credits)
@@ -24,8 +23,6 @@ class MarkDown {
         ${answers.description}
 
         ${answers.why}
-
-        ${answers.what}
 
         ## Installation
 
