@@ -1,12 +1,6 @@
 
 
-<<<<<<< HEAD
-# akfjdb
-=======
-# jrjgksb
-
-![badge](https://img.shields.io/badge/license-${answers.license}-brightgreen)<br />
->>>>>>> b9e3f2a5d4b9b2df56c3a309cbca08a1cf5ac464
+# kjgbs
 
 ## Table of Contents
 
@@ -23,27 +17,27 @@
 
 ## Description
 
-adjbakj
+gjakg
 
 ## Installation
 
-adjfkndajk
+agjkjg
 
 ## Usage 
 
-adjkkajd
+ognjkdg
 
 ## Credits 
 
-jkhdbkahj
+agjkbska
 
 ## Features 
 
-adjkkda
+gjfsng
 
 ## Contributors
 
-bdkga
+jnksfg
 
 ## License 
 
@@ -51,14 +45,10 @@ The MIT License
 
 ## Test Instructions
 
-dnakjn
+jgsng
 
 ## Github Link
 
-Please click [here](djkakj) to visit my Github repository.
+Please click [here](ngsjlf) to visit my Github repository.
 
-<<<<<<< HEAD
-adjkga'
-=======
-jkfsl
->>>>>>> b9e3f2a5d4b9b2df56c3a309cbca08a1cf5ac464
+sklgns
